@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма записи на отправку</title>
+</head>
+<body>
+    <header><h1>Форма для отправки Ваших заказов:</h1></header>
+    <section>
+    <form action="table.html">
+                     
+        <label for="email"><b>Укажите Ваш email:</b></label>
+        <input type="email" name="email"><br>
+        <label for="ФИО"><b>Укажите Ваши Фамилию и Имя:</b></label>
+        <input type="text" name="ФИО" ><br>
+        <label for="Номер Телефона"><b>Ваш Телефон:</b></label>
+        <input type="tel" name="Номер Телефона" ><br>
+        <label for="clientId"><b>Номер клиента</b>(если нет номера пишем"0000"):</b></label> 
+        <input type="text" maxlength="4" name="clientId"><br>
+        <label for="yorN"><b>Вам нужен чек:</b></label><br>
+        <input type="radio" name="yorN" >Да, нужен<br>
+        <input type="radio" name="yorN" >Нет, не нужен <br>
+
+        <label for="boxPrice"><b>На какую сумму оценить посылку при отправке</b>
+            (влияет на стоимость отправки):</label>         
+        <input type="text" size="4" name="boxPrice" >грн.<br>
+                    
+        <label for="post"><b>Какой почтовой Службой отправить Ваши заказы:</b></label><br>
+        <select size="4" multiple name="post">
+            <option disabled>Выберите из списка</option>
+            <option selected value="ukrPost">Укрпочта</option>
+            <option value="Delivery">Деливери</option>
+            <option value="Justin">Джастин</option>
+            <option value="newPost">Новая Почта</option>
+        </select><br>
+             
+        <label for="conFirm"><b>С условиями <a href="./additional/agreement.html">Соглашения</a>
+            и на обработку персональных данных согласен:</b></label><br>       
+        <input type="radio" name="conFirm">Я прочитал 
+        <a href="./additional/agreement.html">Соглашение</a> и согласен<br>
+                        
+        <label for="Адрес"><b>Здесь указываем адрес:</b></label><br>
+        <textarea rows="10" cols="45" name="Адрес"></textarea><br>
+        <input type="submit" Value="Отправить"> <input type="reset" Value="Очистить"><br>
+     
+    </form>
+    </section>  
+    <footer> <a>форма стандарт 2017-2022</a></footer>
+    </body>
+</html>
