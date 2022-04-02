@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Myriad';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF) ;
+}
+ 
+.header{
+    margin: 20px;
+    width: 1250px;
+    height: 89;
+    font-family:'Myriad', serif ;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.title{
+    font-size: 42.5px;
+    margin-left: 146px;
+}
+
+.menu-list{
+    display: flex;
+    margin-right: 145px;
+}
+.menu-list__item{
+    font-size: 20px;
+    margin: 14px 19px 14px 14px;
+}
+.menu-list__item:hover{
+    border-bottom: 3px solid blue;
+
+}
+.sign-up{
+    margin: 20px;
+    height: 490px;
+    width: 1250px;
+    font-family:'Myriad', serif  ;
+    color: white;
+    background-image: url(../img/back_ground.png);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.i-phone{
+    margin:20 0 0 120;
+    padding: 0 0 0 0;
+}
+
+.sign-up__now{
+    margin:14 175 10 0;
+}
+
+.sign-up__title{
+    font-size:43px;
+    /* letter-spacing: 1px; */
+    line-height: 1.5;
+}
+
+.sign-up__text{
+    color: white;
+    font-size: 28px;
+    /* letter-spacing: 0.5px; */
+    line-height: 1.4;
+}
+
+.button{
+    margin: 33px 0 0 14px;
+    width: 172px;
+    height: 41px;
+    font-family: 'Myriad', serif;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(80, 148, 242);
+    border: 1px solid rgb(80, 148, 242);
+    border-radius: 2px;
+}
+
+.button::first-letter{
+    color: rgb(80, 148, 242);
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.choose{
+    margin: 50px 20px 50px 20px;
+    padding: 0px 0px 0px 0px;
+    width: 1250px;
+    font-family:'Myriad', serif;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.choose-item1{
+    margin: 0 0 0 96px;
+    width: 260px;
+}
+
+.choose-item2{
+    margin: 0 0 0 24px;
+    width: 260px;
+}
+
+.choose-item3{
+    margin: 0 94px 0 0;
+    width: 260px;
+}
+
+.choose-img:hover{
+    width: 220px;
+    height: 220px;
+}
+
+.choose-item__title{
+    font-size:20px;
+    color: rgb(80, 148, 242);
+}
+
+.shopping_cart{
+    margin:50px 20px 20px 0px;
+    width: 1250px;
+    display: flex;
+    justify-content:left;
+
+}
+
+.cart{
+    margin: 42px 0px 0 180px;
+    font-family: 'Myriad', serif;
+    font-size: 42px;
+}
+
+.cart-title{
+    margin-left: 9px;
+}
+
+.cart-image{
+    margin-top: 35px;
+}
+
+.some-cart_text{
+    margin: 93px 0px 0px 81px ;
+    font-family:'Myriad', serif;
+    font-size: 15.4px;
+    line-height: 36px;
+}
+
+.some-text__title{
+    margin: 0 0 15px 0;
+    font-size: 26.5px;
+}
+
+.footer{
+    width: 1250px;
+    margin: 49px 0px 0 20px;
+    padding-right: 50px;
+    padding-top: 32px;
+    font-family:'Myriad', serif;
+    font-size: 15.4;
+    text-align: center;
+    border-top: 1px solid rgb(80, 148, 242);
+}
+
+.footer-text{
+    margin-right:83px;
+    
+
+}
+
+
+  
+  
+  
+
+  

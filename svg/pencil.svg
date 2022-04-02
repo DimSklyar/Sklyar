@@ -1,0 +1,12 @@
+<svg width="200" height="200"  xmlns="http://www.w3.org/2000/svg" transform="rotate(32 0 0)">
+
+    <circle cx="50%" cy="50%" r="93" fill="rgb(80, 148, 242)" ></circle>
+    <rect x="87" y="50" rx="4" ry="4" width="28" height="74" fill="white" stroke="white" stroke-width="10"></rect> 
+    <line x1="80" x2="130" y1="70" y2="70" stroke="rgb(80, 148, 242)" stroke-width="5"></line> 
+    <line x1="82" x2="120" y1="125" y2="125" stroke="white" stroke-width="8"></line>
+    <line x1="94" x2="94" y1="82" y2="122" stroke="rgb(80, 148, 242)" stroke-width="6" stroke-linecap="round"></line>
+    <line x1="108" x2="108" y1="82" y2="122" stroke="rgb(80, 148, 242)" stroke-width="6" stroke-linecap="round"></line>
+    <polygon points="82,135 120,135 101,164" fill="white" stroke-linecap="round"></polygon>     
+    <circle cx="101" cy="164" r="18" stroke="rgb(80, 148, 242)" stroke-width="4" fill="transparent"></circle>
+    
+</svg> 
