@@ -1,0 +1,213 @@
+/* @import url(./fonts/ofont.ru_Bebas\ Neue.ttf); */
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 100;
+  src: url(./fonts/bebasneueregular.ttf) ;
+  src: url(./fonts/bebasneueregular.woff) ;
+  src: url(./fonts/bebasneueregular.woff2) ;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(./fonts/Poppinsregular.ttf) ;
+  src: url(./fonts/Poppinsregular.woff) ;
+  src: url(./fonts/Poppinsregular.woff2) ;
+}
+header{
+  display: flex;
+}
+.headerName{
+  font-family: 'BebasNeue',serif;
+  width: 547px;
+  height: 416px
+}
+.leftLine1{
+  background-color: rgb(255, 202, 5);
+  width: 70px;
+  height: 416px;
+}
+.img{
+  padding: auto;
+  width: 341px;
+  height: 416px;
+}
+.devName{
+  padding: 119px 0px 0px 55px;
+}
+.fName{
+  font-size: 65;
+  letter-spacing: 7px;
+  line-height: 65px;
+}
+.lName{
+  font-weight: bold;
+  font-size: 65;
+  letter-spacing: 7px;
+  line-height: 65px;
+}
+.prof{
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 28px;
+  letter-spacing: 7.6;
+}
+.chess{
+  margin: 215px 200px 1200px 500px;
+}
+section{
+  display: flex;
+  color: white;
+}
+.leftLine2{
+  background-color: rgb(255, 202, 5);
+  width: 70px;
+  height: 932px;
+ }
+
+.persData{
+    font-family: 'Poppins', serif;
+    background-color: rgb(41, 41, 52);
+    width: 341px; 
+    height: 932px;
+  }
+  .aboutMe{
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 62px 0px 0px 47px;
+    width: 250px; 
+    height: 300px;
+  }
+  h2{
+    font-family: 'BebasNeue',serif;
+    font-size: 30px;
+    letter-spacing: 4;
+    line-height: 1;
+  }
+  .phone .mail .area::first-line{
+    font-weight: bold;
+    font=size:30px;
+  }
+  .contact{
+    padding: 17px 0px 0px 46px;
+    font-size: 13px;
+  }
+
+  h3{
+    font-family: 'BebasNeue',serif;
+    font-size: 30px;
+    letter-spacing: 4;
+    line-height: 1;
+    
+  }
+
+  .hobbi{
+    font-family: 'BebasNeue',serif;
+    font-size: 30px;
+    letter-spacing: 4;
+    margin: 71px 0px 0px 46px;
+  }
+
+  .hobbies{
+    margin: 27px 50px 0px 41px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size:13px;
+  }
+
+  .icons{
+    width: 30px;
+  }
+
+  .profData {
+    background-color: rgb(34, 34, 45);
+    width: 547px;
+    height: 932px;
+    font-family: 'Poppins', serif;
+  }
+.edu{
+  margin: 57px 0px 0px 54px;
+  font-family: 'BebasNeue',serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 4;
+
+  }
+
+.education{
+  margin: 8px 0px 0px 58px;
+  display: flex;
+  }
+
+.edu__title{
+  font-weight: bold;
+  letter-spacing: 1;
+
+
+}
+.edu-1{
+  font-size: 15px;
+}
+.edu-2{
+  margin: 0px 0px 0px 59px;
+  font-size: 15px;
+
+}
+.job-1{
+  margin: 8px 0px 0px 0px;
+  font-size: 14px;
+
+}
+.job-2{
+
+  font-size: 14px;
+  margin: 26px 0px 0px 0px;
+}
+.job__title{
+  font-size: 17px;
+
+}
+
+.button{
+  width: 87px;
+  height: 20px;
+  border: 1px solid rgb(255, 202, 5);
+  border-radius: 4px;
+  background-color: rgb(255, 202, 5);
+}
+.experience{
+  margin: 81px 0px 0px 54px;
+}
+
+.exp-title{
+  margin: 96px 0px 0px 59px;
+}
+
+.expertise{
+  margin: 20px 0px 0px 54px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  font-size: 8;
+}
+
+.prog{
+  margin: 9px 14px 0px 0px;
+  width: 94px;
+  height: 94px;
+  background-image: url(./img/Ellipse\ 2\ copy.png);
+  text-align: center;
+}
+
+
+.adobe{
+  margin: 34px;
+  text-align: center;
+
+}
+
+
+
+  
