@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'ubuntu';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/Ubuntu-R.ttf);
+}
+
+@font-face {
+        font-family: 'montserrat';
+        font-style: normal;
+        font-weight: 100;
+        src: url(../fonts/Montserrat-VariableFont_wght.ttf); 
+}
+
+@font-face {
+    font-family: 'opensans';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/OpenSans.ttf); 
+}
+
+.ubuntu-font{
+    font-family:'ubuntu', sans-serif ;
+}
+
+.montserrat-font{
+    font-family:'montserrat', sans-serif ;
+}
+
+.opensans-font{
+    font-family:'opensans', sans-serif ;
+}
+
+.button {
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'opensans-font', sans-serif;
+}
+
+.btn-white {
+ background-color: transparent;
+ border: 1px solid #fff;
+}
+
+.btn-blue {
+    background-color: #3a4998;
+    border: 1px solid #3a4998;
+}
+
+.btn-blue:hover {
+    background-color: black;
+}
+
+.btn-white:hover {
+    background-color:white;
+    color:#000;
+}
+
+.btn-black {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn-black:hover {
+    background-color:#000;
+    color:#fff;
+}
+
+.btn-14{
+    font-size: 14px;
+    width: 160px;
+}
+
+.btn-16{
+    font-size: 16px;
+    width: 230px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.card{
+   padding: 85px 40px;
+   box-sizing: border-box;
+}
+
+.card-w_arrow{
+    position: relative;
+}
+
+.benefits-card{
+    width: 575px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #0000;
+}
+
+.card-heading{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.card-white{
+    background-color: #fff;
+}
+
+.card-text{
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 1.8px;
+    font-family:'opensans-font', sans-serif ;
+}
+
+.card-grey{
+    background-color: #f2f2f2;
+}
+
+.card-small{
+    width: 470px;
+    height: 430px;
+}
+
+.card-big{
+    width: 520px;
+    height: 480px;
+}
+
+.card-wide{
+    width: 860px;
+    margin: 0 auto;
+}
+
+.heading-bold{
+    font-weight: 700;
+}
+
+.heading-thin{
+    font-weight: 100;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.contact-title{
+    color: #4d4d4d;
+    font-size: 36;
+    font-family: 'ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+
+.input-line{
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.in-text{
+    height: 100px;
+}

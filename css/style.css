@@ -1,0 +1,262 @@
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.menu-icon{
+    width: 32px;
+    height: 24px;
+}
+
+.intro{
+    padding: 208px 0 129px 0;
+    height: 815px;
+    background-image: url(../img/header-image.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.intro__heading {
+    margin: 0 auto 40px auto;
+    width: 770px;
+    font-size: 72px;
+    font-weight:bold;
+}
+
+.nav-menu {
+    margin-bottom: 40px;
+} 
+
+.nav-menu__list {
+    font-family: OpenSans;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu__list__item {
+    margin-right: 10px;
+}
+
+.benefits{
+    padding: 80px 80px;
+}
+
+.benefits-header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.benefits-body{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.benefits-img1{
+    width: 557px;
+    height: 557px;
+    border-radius: 50%;
+    object-fit: cover;
+    position:relative;
+    margin-right: 200px;
+    z-index: -1;
+}
+
+.back-img1{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.benefits-img2{
+    margin-right: 270px;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+}
+
+.benefits-footer{  
+    padding-left: 40%;
+}
+
+.benefits-list{
+    height: 800px;
+    background: url(../img/vr.jpg) left top no-repeat #292f33 ;    
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50%;
+}
+
+.top-list{
+    height: 1026px;
+    background: #f5f7fa ;    
+    background-image: url(../img/girl.jpg), url(../svg/bluerect.svg) ;
+    background-size: 868px 609px, auto;
+    background-position: 50% 30%, 45% 60%;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 25%;
+    padding-bottom: 40px;
+}
+
+.arrow-left{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    background-color: #e5e5e5;
+}
+
+.arrow-left .arrow-right:hover{
+    
+}
+
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    background-color: #e5e5e5;
+}
+
+.gadgets {
+    height: 688px;
+    background-image: url(../img/joystik1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.gadgets-heading {
+    font-size: 72px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.download{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.img-top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-img1{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.download-img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.download-img3{
+    width: 526px;
+    height: 526px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    left: -115px;
+    top: 150px;
+}
+
+.img-bottom{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    padding-left: 40%;
+}
+
+.blue-ring{
+    position:absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+.beige-ring{
+    width: 164px;
+    height: 164px;
+}
+
+.vr-tech{
+    padding-top: 5%;
+    padding-left: 25%;
+    height: 700px;
+    background-color: #292f33;
+    background-image: url(../img/vr-tech.jpg), url(../svg/beigerect.svg) ;
+    background-size: 731px 511px, auto;
+    background-position: 65% 60%, 60% 50%;
+    background-repeat: no-repeat, no-repeat;
+    margin-bottom: 60px;
+}
+
+.contact{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img{
+    height: 657;
+    object-fit: cover;
+}
+
+.forms{
+    padding: 15px;
+}
+
+.form-items{
+    width: 548px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-button{
+    border-radius: 25px;
+}
+
+.footer{
+    height: 143px;
+    background-color: #333333;
+    text-align: center;
+    vertical-align: middle;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text{
+    width: 417px;
+    font-family: 'opensans', sans-serif;
+    font-size: 14px;
+}
