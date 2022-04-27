@@ -1,0 +1,527 @@
+@font-face 
+    font-family: 'montserat'
+    src: url(./fonts/Montserrat.ttf)
+
+@font-face 
+    font-family: 'opensans'
+    src: url(./fonts/OpenSans.ttf)
+
+@font-face 
+    font-family: 'roboto'
+    src: url(./fonts/Roboto-Regular.ttf)
+
+.mont-font
+    font-family: montserat, sans-serif
+
+.sans-font
+    font-size: 16px
+    line-height: 1.5
+    font-family: opensans, sans-serif
+
+.roboto-font
+    font-family: roboto, sans-serif
+
+.font-60
+    font-size: 60px
+    font-weight: bolder
+
+.font-24
+    font-size: 24px
+
+.text-white
+    color: #ffffff
+
+.text-blue
+    color: #7c5ddf
+
+.border-r
+    border-radius: 20px
+
+.button-yellow
+    border: 1px solid #f1c50e
+    background-color: #f1c50e
+    width: 230px
+    height: 55px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 16px
+    font-weight: 300
+    font-family: OpenSans
+    color: white
+    text-transform: uppercase
+    cursor: pointer
+
+.button-blue
+    border: 1px solid #7c5ddf
+    background-color: #7c5ddf
+    width: 230px
+    height: 55px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 16px
+    font-weight: 300
+    font-family: OpenSans
+    color: white
+    text-transform: uppercase
+    cursor: pointer
+
+.sec__title
+    font-size: 48px
+    font-weight: 700
+
+.header-menu
+    height: 72px
+    display: flex
+    justify-content: center
+    &__icon 
+        width: 24px
+        cursor: pointer
+
+.feedback-sec
+    height: 785px
+    display: flex
+    justify-content: center
+    background-image: url(./img/back1.jpg)
+    background-position: 50% 100%
+    background-size: cover
+    margin-bottom: 50px
+
+.feedback-sec__container
+    max-width: 1140px
+    min-height: 730px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.slogan
+    max-width: 670px
+    padding: 0 30px
+    font-weight: 700
+    font-size: 60px
+    line-height: 1.1
+    margin-bottom: 62px
+
+.feedback
+    padding-right: 30px
+    margin-top: 100px
+
+.feedback-title
+    font-weight: 700
+    font-size: 24px
+    margin-bottom: 30px
+
+.feedback-text
+    margin-bottom: 30px
+
+.feedback__form
+    width: 410px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    box-sizing: border-box
+    color: #111111
+    background-color: #f1c50e
+    border: 1px solid #f1c50e
+    margin: 0px 0px 0 0
+    padding: 30px
+
+.in-setup
+    font-size: 17px
+    width: 100%
+    padding: 10px 12px
+    margin-bottom: 10px
+    border: none
+
+.sub-button
+    width: fit-content
+    border: none
+    padding: 10px 30px
+    background-color:#f1edfc
+
+.sub-button:hover
+    cursor: pointer
+    background-color:#b5b3bb
+
+
+.services
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    &__container
+        max-width: 1140px
+        margin-bottom: 56px
+
+.sevices-title
+    margin-bottom: 60px
+    
+.services__items
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+
+.card-title
+    font-weight: 400
+    font-size: 1.25rem
+    line-height: 1.2
+    margin-top: 23px
+    margin-bottom: 50px
+
+.services-card
+    padding: 10px 20px
+    width: 340px
+    margin-bottom: 38px
+
+    
+
+.about_us
+    background-color: #f2f2f2
+    padding: 40px 200px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    &__container
+        max-width: 1140px
+        margin-bottom: 100px
+        margin-top: 20px
+
+.about_us__title
+    margin-bottom: 77px
+
+// start tabs card
+.tabs 
+    display: flex
+    flex-wrap: wrap
+    height: 300px
+    width: 100%
+
+   
+.tabs label 
+    order: 1
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 10px 25px
+    margin-right: 0.2rem
+    cursor: pointer
+    font-size: 1.125rem
+    background-image: none
+    font-weight: 600
+    letter-spacing: 0px
+    transition: background ease 0.3s
+
+   
+.tabs .tab 
+    order: 9
+    flex-grow: 1
+    width: 100%
+    height: 100%
+    display: none
+    background: #ffffff
+    padding: 30px
+
+   
+.tabs input[type="radio"] 
+    display: none
+
+   
+.tabs input[type="radio"]:checked + label 
+    background: #7c5ddf
+    color: #ffffff
+
+   
+.tabs input[type="radio"]:checked + label + .tab 
+    display: inline
+
+// end tabs card
+
+.tabone-title
+    max-width: 920px
+    font-size: 24px
+    line-height: 1.5
+    font-weight: 700
+    margin-bottom: 20px
+
+.tabone-text
+    margin-bottom: 50px
+
+.tabtwo-text
+    margin-top: 70px
+
+.tabthree-title
+    margin: 30px 0
+
+
+.tabthree-text
+    margin-bottom: 40px
+
+
+.build-products
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #f2f2f2
+   
+
+.build-products__container
+    max-width: 1140px
+    display: block
+    padding: 20px 200px
+    margin-bottom: 40px
+
+
+.build-products__tittle
+    margin: 55 auto
+
+
+.build-img
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+
+.build-img__item
+    width: 352px
+    height: 352px
+    object-fit: cover
+    transition: 1s 
+    display: block 
+    background-color: #0000
+    opacity: 0.9
+    margin-bottom: 41px
+
+.build-products__but
+    margin-top: 39px
+
+.build-products__but:hover
+    cursor: pointer
+    border: none
+    background-color: #ecd67f
+
+.scale 
+    overflow: hidden 
+
+.build-img__item:hover 
+    opacity: 1
+    transform: scale(1.1) 
+
+.partner
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 170px
+
+.partner-container
+    max-width: 1140px
+    display: flex
+    justify-content: space-between
+
+.partner-liders
+    max-width: 490px
+    margin: 91px 63px 3px 0px
+
+.partner-liders__title
+    margin-bottom: 21px
+    line-height: 1.1
+
+.partner-liders__text
+    margin-bottom: 40px
+    line-height: 2
+
+.partner-button
+    color: #111111
+
+.partner-button:hover
+        border: none
+        color: #ffffff
+        background-color: #c2b1b1
+
+.sircle-plus
+    font-size: 72px
+    color: #ffff
+    background-color: #7c5ddf
+    border: 1px solid #7c5ddf
+    border-radius: 36px
+    
+.partner-list
+    display: block
+    box-sizing: border-box
+    max-width: 470px
+    margin: 118px 0px 0px 50px
+
+.partner-list__item  
+    display: none
+
+.partner-list__title
+    font-weight: 700
+    cursor: pointer 
+    display: flex
+    justify-content: space-between
+    margin-bottom: 63px
+    p 
+        margin: auto 0
+
+.partner-list__item__title
+    font-weight: 700
+    margin-bottom: 20px
+
+.accordion
+    display: block
+    input
+        display: none
+
+.accordion input:checked ~ .partner-list__item
+    display: block    
+
+
+ul li:before 
+  content: "–   "
+  margin-left: -1em
+
+
+
+.consulting-content
+    max-width: 1140px
+    min-height: 934px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin: 0 auto
+
+.consulting-title
+    max-width: 822px
+    min-height: 209px
+    box-sizing: border-box
+    margin: 0px 0px 0px 36px
+
+.consulting-title__title
+    margin-bottom: 30px
+
+
+.consulting-card
+    width: 350px
+    height: 270px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 10px 10px
+
+.proj-img
+    width: 59px
+    height: 59px
+
+.consulting-icon
+    display: flex
+    justify-content: flex-end
+    flex-flow: row wrap
+    padding-left: 15%
+
+.consulting-icon1, .consulting-icon4
+    background-color: #f1c50e
+
+.consulting-icon2, .consulting-icon3
+    background-color: #7c5ddf
+    
+.wpsay
+    background-color: #f2f2f2
+    display: flex
+    align-items: center
+
+.wpsay-container
+    max-width: 1140px
+    min-height: 661px
+    margin: 10px auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.wpsay-title
+    margin-bottom: 37px
+
+.wpsay-body
+    display: flex
+
+.wpsay-article
+    min-height: 452px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #ffffff
+    padding: 0 40px
+
+.wpsay-article__text
+    font-size: 20px
+    line-height: 2
+    
+.wpsay-icon
+    max-width: 530px
+    min-height: 452px
+    background-color: #7c5ddf
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0 30px
+
+.wpsay-icon__logo
+    width: 85px
+    height: 85px
+    border: 1px solid #ffffff
+    border-radius: 50%
+    background-color: #ffffff
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+.adress-container
+    max-width: 1140px
+    min-height: 467px
+    display: flex
+    flex-direction: column
+    margin: 0 auto 0 18%
+
+.adress-title
+    margin: 57px 0 30px 0
+    font-size: 20px
+    letter-spacing: 4
+
+.adress-full
+    max-width: 686px
+    line-height: 1.5
+    margin-bottom: 35px
+
+.yel-line
+    width: 198px
+    height: 10px
+    background-color: #f1c50e
+    margin-bottom: 31px
+
+.adress-f
+    max-width: 298px
+    font-family: 'opensans', serif
+
+footer
+    height: 240px
+    color: #ffffff
+    background-color: #333333
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+
+.footer-title 
+    max-width: 417px
+    text-align: center
+
+.footer-link
+    color: #c7baf2
+    &:hover
+        color:#259bca
+
+    
+
