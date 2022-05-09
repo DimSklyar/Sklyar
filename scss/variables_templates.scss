@@ -1,0 +1,74 @@
+$color_main: #323264;
+$color_main_alt: #46466E;
+$color_main_soft: #686887;
+
+$color_accent: #F0145A;
+
+$color_white: #FFFFFF; 
+
+$color_active_regular: #24A3FF;
+$color_active_hover: #0085FF;
+$color_active_active: #006CCF;
+
+$color_grey_bg: #F5F5FA;
+$color_grey_bgAlt: #EDEDF7;
+$color_grey_text: #B3B3BA;
+$color_grey_separator: #E6E6F0;
+
+%font_hero {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+%font_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+%font_h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+%font_h3_caps {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+%font_h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+%font_p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+%font_li {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+%link {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+%paragraph_small {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+%contant {
+    font-size: 21px;
+    line-height: 30px;
+}
